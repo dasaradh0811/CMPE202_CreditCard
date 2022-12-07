@@ -1,4 +1,4 @@
-# individual-project-cmpe202-03-pragnesh16
+# Individual-Project-cmpe202-01-dasaradh0811
 
 1. The Credit Card Application is equipped with different Structural and Behavioural design patterns
 
