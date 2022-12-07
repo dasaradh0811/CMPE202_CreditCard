@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Cards>
+    <card>
+        <CardNumber>5567894523129089</CardNumber>
+        <CardType>Master Card</CardType>
+    </card>
+    <card>
+        <CardNumber>59012345678901234567890</CardNumber>
+        <CardType>Invalid Card Type</CardType>
+    </card>
+    <card>
+        <CardNumber>4123456789123</CardNumber>
+        <CardType>visa Card</CardType>
+    </card>
+    <card>
+        <CardNumber>347856341908126</CardNumber>
+        <CardType>American Express</CardType>
+    </card>
+    <card>
+        <CardNumber>6011111100007756</CardNumber>
+        <CardType>Discover Card</CardType>
+    </card>
+    <card>
+        <CardNumber>3601112345678789</CardNumber>
+        <CardType>Invalid Card Type</CardType>
+    </card>
+    <card>
+        <CardNumber>5167894523129089</CardNumber>
+        <CardType>Master Card</CardType>
+    </card>
+    <card>
+        <CardNumber>4123456789123999</CardNumber>
+        <CardType>visa Card</CardType>
+    </card>
+    <card>
+        <CardNumber>377856341908126</CardNumber>
+        <CardType>American Express</CardType>
+    </card>
+    <card>
+        <CardNumber>5367894523129089</CardNumber>
+        <CardType>Master Card</CardType>
+    </card>
+    <card>
+        <CardNumber>6011*890HJrt6789</CardNumber>
+        <CardType>Invalid Card Type</CardType>
+    </card>
+    <card>
+        <CardNumber/>
+        <CardType>Invalid Card Type</CardType>
+    </card>
+</Cards>
