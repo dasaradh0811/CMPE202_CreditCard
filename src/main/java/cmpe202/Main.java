@@ -9,15 +9,6 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException, ParserConfigurationException, SAXException, ParseException {
-
-//        CsvParser csvParser = new CsvParser();
-//        csvParser.getData("/Users/spartan/Downloads/Individual-Project-cmpe202-Dasaradh-main/input_file.csv");
-
-//        XmlParser xmlParser =  new XmlParser();
-//        xmlParser.getData("/Users/spartan/Downloads/Individual-Project-cmpe202-Dasaradh-main/input_file.xml");
-
-//        JsonParser jsonParser = new JsonParser();
-//        jsonParser.getData("/Users/spartan/Downloads/Individual-Project-cmpe202-Dasaradh-main/input_file.json");
         String csvPath = "/Users/spartan/Downloads/Individual-Project-cmpe202-Dasaradh-main/input_file.csv";
         String jsonPath = "/Users/spartan/Downloads/Individual-Project-cmpe202-Dasaradh-main/input_file.json";
         String xmlPath = "/Users/spartan/Downloads/Individual-Project-cmpe202-Dasaradh-main/input_file.xml";

@@ -22,10 +22,6 @@ public class JsonParser implements FileStrategy{
             Object obj = parser.parse(new FileReader(file));
             JSONObject jsonObject = (JSONObject) obj;
             JSONArray cardNumber = (JSONArray)jsonObject.get("cards");
-//            Iterator iterator = cardNumber.iterator();
-//            while (iterator.hasNext()) {
-//                System.out.println(iterator.next().get(""));
-//            }
 
             for (int i = 0; i < cardNumber.size(); i++)
             {
@@ -34,7 +30,6 @@ public class JsonParser implements FileStrategy{
                     test.add(jsonObject1.get("cardNumber").toString());
                 else test.add("");
             }
-//            System.out.println(test.size());
         }catch (Exception e){
             e.printStackTrace();
         }
@@ -67,25 +62,11 @@ public class JsonParser implements FileStrategy{
                 ouputObj.put("CardNumber", test.get(i));
                 ouputObj.put("CardType",cards.get(i));
                 jobj.add(ouputObj);
-//                myWriter.write(ouputObj.toJSONString());
             }
             JSONObject finalJobj = new JSONObject();
             finalJobj.put("cards", jobj);
             myWriter.write(finalJobj.toJSONString());
             myWriter.close();
-//            HashMap<String, Card>
-//            File jsonfile = new File("/Users/pragneshbagary/IdeaProjects/CrediCardProblem/outputfiles/test.json");
-//            jsonfile.createNewFile();
-//            FileWriter myWriter = new FileWriter("/Users/pragneshbagary/IdeaProjects/CrediCardProblem/outputfiles/test.csv");
-//            BufferedWriter bw  = new BufferedWriter(myWriter);
-//            for(int i = 0; i<test.size();i++){
-//                bw.write(test.get(i)+","+cards.get(i));
-//                bw.newLine();
-//            }
-//            bw.close();
-//            for(int i = 0; i < test.size(); i++){
-//
-//            }
         }catch (Exception e){
             e.printStackTrace();
         }

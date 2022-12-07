@@ -19,9 +19,7 @@ public class CsvParser implements FileStrategy{
         try {
             BufferedReader br = new BufferedReader(new FileReader(file));
             while((line = br.readLine()) != null) {
-//                System.out.println("test");
                 test.add(line.split(splitBy)[0]);
-//                System.out.println(line.split(splitBy)[0]);
             }
             this.processData(test);
         }

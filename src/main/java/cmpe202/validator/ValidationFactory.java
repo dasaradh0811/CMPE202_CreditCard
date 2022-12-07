@@ -16,7 +16,6 @@ public class ValidationFactory {
             return new Discover();
         }
         else
-//            System.out.println("invalid");
             return new InvalidCreditCard();
     }
 }

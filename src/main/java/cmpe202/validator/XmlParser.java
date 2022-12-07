@@ -58,8 +58,6 @@ public class XmlParser implements FileStrategy{
     public void processData(ArrayList<String> test) throws IOException {
         ValidationFactory validationFactory =  new ValidationFactory();
         for(String str : test){
-//            System.out.println(str);
-//            if(str ==null) str = "&";
             Validation card = validationFactory.checkCard(str);
             cardType = card.validCard();
             cards.add(cardType);
@@ -100,8 +98,6 @@ public class XmlParser implements FileStrategy{
                     tr.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
 
                     tr.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "4");
-
-                    // send DOM to file
                     tr.transform(new DOMSource(dom),
                             new StreamResult(new FileOutputStream(xml)));
 
@@ -116,9 +112,5 @@ public class XmlParser implements FileStrategy{
         }catch (Exception e){
             e.printStackTrace();
         }
-
-
-//
-
     }
 }
